@@ -615,5 +615,4 @@ Or:
 * SFM 3.0: World Cup, Champions League, top domestic leagues, Copa America,and European Championship support
 
 如果对你有帮助，可以支持一下
-<img width="75.7" height="82.8" alt="微信图片_20260630140933_21_2" src="https://github.com/user-attachments/assets/73bf9609-7a4b-4a80-8765-6eb23b98b2e0" />
 
