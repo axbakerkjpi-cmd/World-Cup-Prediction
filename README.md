@@ -613,3 +613,7 @@ Or:
 * SFM 1.2: qualification paths, penalties, and deeper Monte Carlo simulation
 * SFM 2.0: calibration, automatic weight tuning, and backtesting
 * SFM 3.0: World Cup, Champions League, top domestic leagues, Copa America,and European Championship support
+
+如果对你有帮助，可以支持一下
+<img width="1242" height="1692" alt="d0ce0bea535daf1decee884809360087" src="https://github.com/user-attachments/assets/a303c642-cf96-40da-ba75-257f02a1b3a0" />
+
