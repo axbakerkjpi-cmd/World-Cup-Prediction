@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "name": "sample_teams",
+      "enabled": true,
+      "type": "local_csv",
+      "path": "data/sample/teams.csv",
+      "target": "teams.csv"
+    },
+    {
+      "name": "sample_matches",
+      "enabled": true,
+      "type": "local_csv",
+      "path": "data/sample/matches.csv",
+      "target": "matches.csv"
+    },
+    {
+      "name": "world_cup_teams_from_football_data_org",
+      "enabled": false,
+      "type": "football_data_org_teams",
+      "competition": "WC",
+      "target": "teams.csv",
+      "api_key_env": "FOOTBALL_DATA_API_KEY",
+      "default_elo": 1500
+    },
+    {
+      "name": "world_cup_matches_from_football_data_org",
+      "enabled": false,
+      "type": "football_data_org_matches",
+      "competition": "WC",
+      "season": "2026",
+      "target": "matches.csv",
+      "neutral_site": "true",
+      "api_key_env": "FOOTBALL_DATA_API_KEY"
+    },
+    {
+      "name": "world_cup_odds_from_the_odds_api",
+      "enabled": false,
+      "type": "the_odds_api_h2h",
+      "sport": "soccer_fifa_world_cup",
+      "regions": "us,uk,eu",
+      "markets": "h2h",
+      "target": "odds.csv",
+      "merge_matches_target": "matches.csv",
+      "api_key_env": "ODDS_API_KEY"
+    }
+  ]
+}

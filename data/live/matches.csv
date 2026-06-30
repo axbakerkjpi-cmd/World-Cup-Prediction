@@ -1,0 +1,6 @@
+match_id,date,home_team,away_team,neutral_site,home_odds,draw_odds,away_odds
+M001,2026-06-30,Argentina,France,true,2.55,3.20,2.85
+M002,2026-06-30,Brazil,England,true,2.35,3.10,3.20
+M003,2026-07-01,Spain,Netherlands,true,2.50,3.05,2.95
+M004,2026-07-01,Portugal,Morocco,true,2.05,3.30,4.00
+M005,2026-07-02,Japan,USA,true,2.80,3.15,2.60
