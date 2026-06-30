@@ -431,7 +431,7 @@ The examples below use Windows PowerShell.
 
 ### 1. Enter the project folder
 
-    cd "D:\New project"
+    cd "D:\your project"
 
 ### 2. Create a virtual environment
 
@@ -482,7 +482,7 @@ You can double-click the file or open it in a browser.
 
 After the project is installed, the normal workflow is:
 
-    cd "D:\New project"
+    cd "D:\your project"
     .\.venv\Scripts\Activate.ps1
     sfm update
     sfm predict --data-dir data\live
@@ -593,50 +593,6 @@ More details:
 
 * * *
 
-## Publishing To GitHub
-
-Commit these:
-
-    .github/
-    config/
-    data/sample/
-    data/live/.gitkeep
-    docs/
-    scripts/
-    sfm_engine/
-    tests/
-    .gitignore
-    LICENSE
-    README.md
-    setup.cfg
-    setup.py
-
-Do not commit:
-
-    .venv/
-    outputs/
-    __pycache__/
-    *.pyc
-    *.egg-info/
-    codex-log-backups/
-    .agents/
-    .codex/
-    dist/
-    build/
-    data/live/*.csv
-
-Initial publish:
-
-    cd "D:\New project"
-    git init
-    git add .
-    git status
-    git commit -m "Create SFM 1.0 prototype"
-    git branch -M main
-    git remote add origin https://github.com/YOUR_NAME/serenity-football-model.git
-    git push -u origin main
-
-* * *
 
 ## Tests
 
